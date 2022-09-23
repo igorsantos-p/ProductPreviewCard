@@ -42,7 +42,7 @@ body {
   border-radius: 10px 0 0 10px;
 }
 
-.main {
+.info {
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -117,7 +117,7 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .main {
+  .info {
     padding: 20px;
     border-radius: 0 0 10px 10px;
   }
