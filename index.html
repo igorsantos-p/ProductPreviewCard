@@ -14,10 +14,12 @@
 </head>
 
 <body>
-  <div class="container">
-    <img src="./img/image-product-desktop.jpg" class="product-desktop" alt="perfume">
-    <img src="./img/image-product-mobile.jpg" class="product-mobile" alt="perfume">
-    <div class="info">
+  <main class="container">
+    <picture>
+      <source media="(max-width:600px)" srcset="./img/image-product-mobile.jpg">
+      <img src="./img/image-product-desktop.jpg" class="product-desktop" alt="Gabrielle Parfum" style="width:auto;">
+    </picture>
+    <div role="article" class="info">
       <p class="text title">perfume</p>
       <h1 class="perfume-name">Gabrielle Essence Eau De Parfum</h1>
       <p class="text description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
@@ -27,7 +29,7 @@
       </div>
       <a href="#" class="button"><img src="./img/icon-cart.svg" alt="cart icon">Add to Cart</a>
     </div>
-  </div>
+  </main>
   <footer class="footer">
     <p>Challenge by <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/igorsantos-p" target="_blank">Igor Pereira</a>.</p>
   </footer>

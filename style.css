@@ -29,10 +29,6 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.product-mobile {
-  display: none;
-}
-
 .product-desktop {
   max-width: 100%;
   height: 100%;
@@ -58,6 +54,7 @@ body {
 
 .title {
   text-transform: uppercase;
+  letter-spacing: 0.3rem;
 }
 
 .perfume-name {
@@ -109,9 +106,6 @@ body {
   body{
     padding: 40px 20px;
   }
-  .product-desktop {
-    display: none;
-  }
 
   .container {
     grid-template-columns: 1fr;
@@ -122,9 +116,7 @@ body {
     border-radius: 0 0 10px 10px;
   }
 
-  .product-mobile {
-    max-width: 100%;
-    height: 100%;
+  .product-desktop {
     display: block;
     object-fit: cover;
     object-position: top bottom;
